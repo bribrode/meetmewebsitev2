@@ -199,8 +199,42 @@ a{
 }
 
 /* NEWS PAGE ELEMENTS */
+#docents{
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+#blog, #poems{
+  margin: 0 2vh;
+}
+
+#poems{
+  text-align: center;
+}
+
+#poems article{
+  border: #48449C 4px solid;
+  padding: 3vh;
+}
+
+article h2, h3{
+  margin: 2vh auto;
+}
+
+
+article img{
+  display: block;
+  margin: 0 auto
+}
+
+#blog article{
+  border: #FDBE3D 4px solid;
+  padding: 3vh;
+}
+
 .far{
   color: #FDBE3D;
 }
+
 
 /* CONTACT PAGE ELEMENTS */
