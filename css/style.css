@@ -118,6 +118,17 @@ h2{
   font-size: 1.4em;
 }
 
+h3{
+  font-size: 1.2em;
+}
+
+h4{
+  margin-top: 2vh;
+  font-weight: bold;
+  text-align: center;
+  font-size: 1.15em;
+}
+
 a{
   text-decoration: none;
   /* font-weight: bold; */
@@ -157,7 +168,8 @@ a{
 .tourDate img, .pastDate img{
   margin: 0 auto;
   display: block;
-  width: 275px;
+  width: 20vw;
+  min-width: 150px;
 }
 
 .tourDate, .pastDate{
@@ -169,6 +181,22 @@ a{
 }
 
 /* FACILITY PAGE ELEMENTS */
+
+
+.facility img{
+  max-width: 150px;
+  display: inline-block;
+  margin: auto 0;
+
+}
+
+.facility .content{
+  /* grid-column-start: 2;
+  grid-column-end: 2; */
+  display: inline-block;
+  width: 60vw;
+  margin: 4vh auto 0;
+}
 
 /* NEWS PAGE ELEMENTS */
 .far{
