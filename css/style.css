@@ -89,7 +89,6 @@ footer p{
 /* Body */
 body {
   font-family: Raleway;
-  min-height: 65vh;
   font-size: 1.1em;
 }
 
@@ -100,6 +99,7 @@ p{
 
 main{
   width: 80vw;
+  min-height: 65vh;
   margin: 0 auto;
 
 }
@@ -199,10 +199,10 @@ a{
 }
 
 /* NEWS PAGE ELEMENTS */
-#docents{
+/* #docents{
   display: grid;
   grid-template-columns: 2fr 1fr;
-}
+} */
 
 #blog, #poems{
   margin: 0 2vh;
@@ -223,7 +223,10 @@ article h2, h3{
 
 article img{
   display: block;
-  margin: 0 auto
+  margin: 0 auto;
+  width: 30vw;
+  min-width: 250px;
+
 }
 
 #blog article{
@@ -237,3 +240,34 @@ article img{
 
 
 /* CONTACT PAGE ELEMENTS */
+#contact{
+  background-image: url(../images/dorazio.jpg);
+  /* background-repeat: no-repeat; */
+  background-size: 80vw;
+  height: 80vh;
+}
+
+#transparent{
+  background: rgba(255,255,255,.75);
+  margin: 5vw ;
+  padding: 5vw;
+  height: 80vh;
+}
+
+input{
+  width: 60vw;
+  margin-bottom: 3vh;
+  padding: 1vh 0;
+}
+
+#message{
+  padding-bottom: 6vh;
+}
+
+#submit{
+  background-color: #48449C;
+  color: White;
+  font-weight: bold;
+  font-size: .8em;
+  padding: 1vh 0;
+}
