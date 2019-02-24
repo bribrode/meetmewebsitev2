@@ -26,7 +26,7 @@ header{
 header img{
   padding: 10px;
   margin: auto;
-  width: 18vw;
+  width: 15vw;
   min-width: 150px;
   display: block;
 }
@@ -70,6 +70,7 @@ nav a{
   .current{
     color: #48449C;
     background-color: white;
+      font-weight: bold;
   }
 }
 
@@ -119,7 +120,7 @@ h2{
 
 a{
   text-decoration: none;
-  font-weight: bold;
+  /* font-weight: bold; */
   color: #9C235D;
 }
 
@@ -136,19 +137,35 @@ a{
 
 
 /* TOUR PAGE ELEMENTS*/
-.tourCal{
+.tourCal, .pastTours{
   display: flex;
   flex-flow: row wrap;
-  justify-content: baseline;
+  justify-content: space-around;
 }
 
-.tourDate{
+.tourDate, .pastDate{
   flex-grow: 1;
-  /* align-self: stretch; */
+  /* align-self: center; */
+  border: orange 3px solid;
+  padding: 5vh;
 }
 
-.tourDate img{
-  width: 200px;
+.pastDate{
+  width: 30vw;
+}
+
+.tourDate img, .pastDate img{
+  margin: 0 auto;
+  display: block;
+  width: 275px;
+}
+
+.tourDate, .pastDate{
+  text-align: center;
+}
+
+.tourDate h2, .pastDate h2{
+  margin: 2vh auto;
 }
 
 /* FACILITY PAGE ELEMENTS */
