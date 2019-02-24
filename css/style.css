@@ -1,0 +1,161 @@
+/* STYLING FOR ELEMENTS ON ALL PAGES */
+
+/* Fonts */
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+
+/* Skip to main content */
+.skiptomain{
+  text-decoration: none;
+  position: relative;
+  padding: 15px;
+  left: -200px;
+  transition: left ease-in .5s;
+  top: 15px;
+
+}
+
+.skiptomain:focus {
+  left: 0;
+}
+
+/* Navigation  */
+header{
+  min-height: 20vh;
+}
+
+header img{
+  padding: 10px;
+  margin: auto;
+  width: 18vw;
+  min-width: 150px;
+  display: block;
+}
+
+nav{
+  margin: 20px 0 0;
+  text-align: center;
+  background-color: #48449C;
+  padding: 10px;
+  border-bottom: #48449C 2px solid;
+
+}
+
+nav li{
+  padding: 8px;
+}
+
+nav a{
+  color: #FFFFFF;
+  text-decoration: None;
+}
+
+.current{
+  font-weight: bold;
+  border-bottom: #FDBE3D 4px solid;
+}
+
+@media screen and (min-width: 700px){
+  nav{
+    padding: 20px;
+  }
+
+  nav li{
+    display: inline;
+  }
+
+  nav a{
+    padding: 20px 30px 16px;
+  }
+
+  .current{
+    color: #48449C;
+    background-color: white;
+  }
+}
+
+/* Footer */
+footer{
+  background-color: #FDBE3D;
+  min-height: 15vh;
+  margin-top: 8vh;
+}
+
+footer p{
+  line-height: 15vh;
+  text-align: center;
+}
+
+/* Body */
+body {
+  font-family: Raleway;
+  min-height: 65vh;
+  font-size: 1.1em;
+}
+
+p{
+  line-height: 1.3em;
+  padding-bottom: 1em;
+}
+
+main{
+  width: 80vw;
+  margin: 0 auto;
+
+}
+
+h1 {
+  font-size: 1.75em;
+  color: #48449C;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 2vh;
+  margin-top: 8vh;
+}
+
+h2{
+  color: #9C235D;
+  font-size: 1.4em;
+}
+
+a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #9C235D;
+}
+
+/* HOME PAGE ELEMENTS*/
+
+#slideshow img{
+  width: 80vw;
+  margin: 0 auto;
+  display: block;
+  z-index: -1;
+}
+
+
+
+
+/* TOUR PAGE ELEMENTS*/
+.tourCal{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: baseline;
+}
+
+.tourDate{
+  flex-grow: 1;
+  /* align-self: stretch; */
+}
+
+.tourDate img{
+  width: 200px;
+}
+
+/* FACILITY PAGE ELEMENTS */
+
+/* NEWS PAGE ELEMENTS */
+.far{
+  color: #FDBE3D;
+}
+
+/* CONTACT PAGE ELEMENTS */
